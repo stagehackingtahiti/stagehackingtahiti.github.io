@@ -1,9 +1,8 @@
 const rankingsBody = document.querySelector("#rankings > tbody");
-const jsonData = require('./rankings.json');
 
 function loadRankings () {
     const request = new XMLHttpRequest();
-    populateRankings(jsonData);
+
 
     request.open("get", "https://stagehackingtahiti.github.io/rankings.json");
     request.onload = () => {
