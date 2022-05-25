@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Stage Hacking - Tahiti
-tagline: Easy websites with GitHub Pages
+tagline: Apprendre le hacking à Tahiti :)
 description: Apprendre le hacking à Tahiti. 
 ---
 
