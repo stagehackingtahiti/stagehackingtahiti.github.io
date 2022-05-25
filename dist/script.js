@@ -4,7 +4,7 @@ function loadRankings () {
     const request = new XMLHttpRequest();
 
 
-    request.open("get", "https://stagehackingtahiti.github.io/rankings.json");
+    request.open("get", "https://stagehackingtahiti.github.io/dist/rankings.json");
     request.onload = () => {
         try {
             const json = JSON.parse(request.responseText);
